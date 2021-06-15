@@ -17,6 +17,10 @@
 		A096DC1B26793703006FC004 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096DC1A26793703006FC004 /* AboutViewController.swift */; };
 		A096DC1D2679374E006FC004 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096DC1C2679374E006FC004 /* TriviaViewController.swift */; };
 		A096DC1F2679379D006FC004 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096DC1E2679379D006FC004 /* ResourceViewController.swift */; };
+		D23457B02679405A0044B4E1 /* Flofacts-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = D23457AF2679405A0044B4E1 /* Flofacts-removebg-preview.png */; };
+		D23457B2267941720044B4E1 /* pink-watercolor-circle-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D23457B1267941720044B4E1 /* pink-watercolor-circle-2.png */; };
+		D23457B8267943730044B4E1 /* FirstQuestionTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23457B7267943730044B4E1 /* FirstQuestionTriviaViewController.swift */; };
+		D23457BA2679470E0044B4E1 /* SecondQuestionTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23457B92679470E0044B4E1 /* SecondQuestionTriviaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		A096DC1A26793703006FC004 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		A096DC1C2679374E006FC004 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		A096DC1E2679379D006FC004 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		D23457AF2679405A0044B4E1 /* Flofacts-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flofacts-removebg-preview.png"; path = "../../../../../Downloads/Flofacts-removebg-preview.png"; sourceTree = "<group>"; };
+		D23457B1267941720044B4E1 /* pink-watercolor-circle-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-watercolor-circle-2.png"; path = "../../../../../Downloads/pink-watercolor-circle-2.png"; sourceTree = "<group>"; };
+		D23457B7267943730044B4E1 /* FirstQuestionTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionTriviaViewController.swift; sourceTree = "<group>"; };
+		D23457B92679470E0044B4E1 /* SecondQuestionTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestionTriviaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +77,16 @@
 				0A2FB5AF2679341E00958121 /* HomeViewController.swift */,
 				0A2FB5B12679341E00958121 /* Main.storyboard */,
 				0A2FB5B72679342200958121 /* Assets.xcassets */,
+				D23457B1267941720044B4E1 /* pink-watercolor-circle-2.png */,
+				D23457AF2679405A0044B4E1 /* Flofacts-removebg-preview.png */,
 				0A2FB5B92679342200958121 /* LaunchScreen.storyboard */,
 				0A2FB5BC2679342200958121 /* Info.plist */,
 				0A2FB5B42679341E00958121 /* floFacts.xcdatamodeld */,
 				A096DC1A26793703006FC004 /* AboutViewController.swift */,
 				A096DC1C2679374E006FC004 /* TriviaViewController.swift */,
 				A096DC1E2679379D006FC004 /* ResourceViewController.swift */,
+				D23457B7267943730044B4E1 /* FirstQuestionTriviaViewController.swift */,
+				D23457B92679470E0044B4E1 /* SecondQuestionTriviaViewController.swift */,
 			);
 			path = floFacts;
 			sourceTree = "<group>";
@@ -136,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23457B2267941720044B4E1 /* pink-watercolor-circle-2.png in Resources */,
 				0A2FB5BB2679342200958121 /* LaunchScreen.storyboard in Resources */,
+				D23457B02679405A0044B4E1 /* Flofacts-removebg-preview.png in Resources */,
 				0A2FB5B82679342200958121 /* Assets.xcassets in Resources */,
 				0A2FB5B32679341E00958121 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23457B8267943730044B4E1 /* FirstQuestionTriviaViewController.swift in Sources */,
 				A096DC1F2679379D006FC004 /* ResourceViewController.swift in Sources */,
+				D23457BA2679470E0044B4E1 /* SecondQuestionTriviaViewController.swift in Sources */,
 				0A2FB5B02679341E00958121 /* HomeViewController.swift in Sources */,
 				A096DC1D2679374E006FC004 /* TriviaViewController.swift in Sources */,
 				0A2FB5AC2679341E00958121 /* AppDelegate.swift in Sources */,
